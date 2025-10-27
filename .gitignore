@@ -1,0 +1,27 @@
+# Hugo generated files
+/public/
+/resources/_gen/
+
+# Hugo build lock file
+.hugo_build.lock
+
+# Node.js modules
+/node_modules/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Environment files
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Obsidian vault settings
+content/.obsidian/
