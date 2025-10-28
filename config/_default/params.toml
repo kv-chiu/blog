@@ -147,9 +147,9 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # domain = "llama.yoursite.com"
 
 [umamiAnalytics]
-  websiteid = "{{ os.Getenv \"UMAMI_SITE_ID\" }}"
-  domain = ""
-  dataDomains = "{{ os.Getenv \"UMAMI_DATA_DOMAINS\" }}"
+  websiteid = "{{ getenv \"UMAMI_SITE_ID\" }}"
+  domain = "{{ getenv \"UMAMI_DOMAIN\" }}"
+  dataDomains = "{{ getenv \"UMAMI_DATA_DOMAINS\" }}"
   # scriptName = ""
   enableTrackEvent = true
 
