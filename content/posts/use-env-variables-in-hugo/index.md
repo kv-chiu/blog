@@ -38,7 +38,7 @@ https://gohugobrasil.netlify.app/getting-started/configuration/#environmental-va
 
 这下确认了，hugo 可以使用环境变量进行配置，而不必在配置文件里面硬编码。
 
-但是搜素来搜索去好像怎么也没搜到官方说明。使用context7阅读官方文档，很快有结果了：
+但是搜索来搜索去好像怎么也没搜到官方说明。使用context7阅读官方文档，很快有结果了：
 
 ![hugo-configuration-env-docs.png](hugo-configuration-env-docs.png)
 
