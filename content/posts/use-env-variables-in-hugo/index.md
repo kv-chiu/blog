@@ -1,9 +1,10 @@
 ---
 title: 在hugo中使用环境变量填写配置
 linkTitle: 在hugo中使用环境变量填写配置
-date: 2025-11-05
+date: 2025-11-05T01:39:00
 author: "[kvchiu](https://kvchiu.pages.dev)"
 summary: hugo配置除了在config中硬编码，环境变量也是一个入口
+draft: false
 tags:
   - hugo
   - 环境变量
@@ -62,6 +63,6 @@ https://gohugo.io/configuration/introduction/#environment-variables
 1. 命令行参数
 2. 环境变量
 3. 配置文件（根目录）
-4. 配置文件（config 目录)
+4. 配置文件（config 目录）
 
 知名的项目99%的可能会保证环境变量作为配置有效，如果没找到相关说明，可以考虑用 ai+context7 做语义化搜索，抑或是在社区中找关键词相关讨论。
